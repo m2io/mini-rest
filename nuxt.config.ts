@@ -23,7 +23,12 @@ export default defineNuxtConfig({
 	future: {
 		compatibilityVersion: 4,
 	},
-	modules: ['@nuxt/eslint'],
+	imports: {
+		dirs: [
+			'./icons',
+		],
+	},
+	modules: ['@nuxt/eslint', '@pinia/nuxt', '@vueuse/nuxt'],
 	postcss: {
 		plugins: {
 			'@tailwindcss/postcss': {},
