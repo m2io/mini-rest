@@ -2,8 +2,10 @@
 
 @theme {
 	--font-geist: 'geist', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	--color-zinc-925: #111113;
-	--color-primary: #FE2401;
+	--color-zinc-925: oklch(0.18 0 0);
+	--color-primary: oklch(0.61 0.26 30.81);
+	--color-primary-light: oklch(0.66 0.26 30.98);
+	--color-primary-dark: oklch(0.54 0.23 30.98);
 	--shadow-modal: rgba(0, 0, 0, 0.15) 0px 4px 40px, rgba(0, 0, 0, 0.184) 0px 3px 20px, rgba(0, 0, 0, 0.184) 0px 3px 12px, rgba(0, 0, 0, 0.184) 0px 2px 8px, rgba(0, 0, 0, 0.184) 0px 1px 1px;
 }
 
