@@ -1,4 +1,4 @@
 export const ICONS = {
-	settings: 'bi-gear-wide-connected',
+	settings: 'iconamoon-settings',
 	close: 'iconamoon-close',
 } as const
